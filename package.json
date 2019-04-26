@@ -1,14 +1,13 @@
 {
   "name": "saas-spinkit",
   "description": "A collection of loading indicators animated with CSS for React",
-  "version": "0.1",
+  "version": "2.0.3",
   "author": "Originally by Ben Tatum <bentatum@me.com>, now maintained by Xen Works Ltd <hello@xen.works>",
   "scripts": {
     "lint": "standard --fix",
     "precommit": "npm test",
     "prepush": "npm test",
     "commitmsg": "validate-commit-msg",
-    "prebuild": "rm -rf dist",
     "build": "babel -d dist/ src/",
     "prepublish": "npm run lint && npm run test && npm run build",
     "test": "npm run lint && mocha src/**/__spec__/*.spec.js --compilers js:babel-register"
@@ -24,10 +23,10 @@
     "minify-css-string": "^1.0.0"
   },
   "peerDependencies": {
-    "prop-types": "^15.5.8",
     "lodash.memoize": "^4.1.2",
     "lodash.omitby": "^4.6.0",
     "lodash.range": "^3.2.0",
+    "prop-types": "^15.5.8",
     "react": "^15.5.4"
   },
   "devDependencies": {
@@ -51,6 +50,7 @@
     "react": "^15.5.4",
     "react-addons-test-utils": "^15.5.1",
     "react-dom": "^15.5.4",
+    "react-test-renderer": "15.5",
     "standard": "^10.0.2",
     "validate-commit-msg": "^2.12.1"
   },
