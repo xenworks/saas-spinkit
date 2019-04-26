@@ -5,7 +5,7 @@
   "author": "Originally by Ben Tatum <bentatum@me.com>, now maintained by Xen Works Ltd <hello@xen.works>",
   "scripts": {
     "lint": "standard --fix",
-    "precommit": "npm test",
+    "precommit": "npm test && babel -d dist/ src/",
     "prepush": "npm test",
     "commitmsg": "validate-commit-msg",
     "build": "babel -d dist/ src/",
