@@ -1,8 +1,8 @@
 {
-  "name": "better-react-spinkit",
+  "name": "saas-spinkit",
   "description": "A collection of loading indicators animated with CSS for React",
-  "version": "2.0.2",
-  "author": "Ben Tatum <bentatum@me.com>",
+  "version": "0.1",
+  "author": "Originally by Ben Tatum <bentatum@me.com>, now maintained by Xen Works Ltd <hello@xen.works>",
   "scripts": {
     "lint": "standard --fix",
     "precommit": "npm test",

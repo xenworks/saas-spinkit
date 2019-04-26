@@ -1,4 +1,4 @@
-# better-react-spinkit
+# saas-spinkit
 
 [![npm][npm-image]][npm-url]
 [![npm][npm-downloads-image]][npm-url]
@@ -15,14 +15,8 @@
 
 A collection of loading indicators animated with CSS, powered by React.
 
-## Donate
-```
-BTC: 33dgdBhV1Yf5ERKLLKS7ztEAEEx3zTvSkw
-ETH: 0xa6938ead6d6820377fed78b657e4eb6c5c44d1b3
-```
-
 ## Install
-`npm i better-react-spinkit`
+`npm i https://github.com/xenworks/saas-spinkit --save`
 
 ## Usage
 ```js
@@ -79,6 +73,6 @@ Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md
 
 [ISC](LICENSE.md)
 
-## Documentation
+## Original Documentation
 
 👀 [docs](http://better-react-spinkit.benjamintatum.com/)
