@@ -13,7 +13,7 @@
     "test": "npm run lint && mocha src/**/__spec__/*.spec.js --compilers js:babel-register"
   },
   "bugs": {
-    "url": "https://github.com/bentatum/better-react-spinkit/issues"
+    "url": "https://github.com/xenworks/saas-spinkit/issues"
   },
   "dependencies": {
     "inline-style-prefixer": "^3.0.3",
@@ -50,7 +50,7 @@
     "standard": "^10.0.2",
     "validate-commit-msg": "^2.12.1"
   },
-  "homepage": "https://github.com/bentatum/better-react-spinkit",
+  "homepage": "https://github.com/xenworks/saas-spinkit",
   "keywords": [
     "react",
     "react-component",
@@ -70,7 +70,7 @@
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bentatum/better-react-spinkit.git"
+    "url": "https://github.com/xenworks/saas-spinkit.git"
   },
   "babel": {
     "presets": [
